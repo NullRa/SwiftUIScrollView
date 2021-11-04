@@ -28,6 +28,7 @@ struct CardView: View {
                         .fontWeight(.black)
                         .foregroundColor(.primary)
                         .lineLimit(3)
+                        .minimumScaleFactor(0.5)
                     Text(author.uppercased())
                         .font(.caption)
                         .foregroundColor(.secondary)
