@@ -24,7 +24,7 @@ struct ContentView: View {
             }
             .padding(.horizontal)
             
-            ScrollView(.horizontal) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
                     CardView(image: "1", category: "Picture 1", heading: "Fat Cat", author: "take by null")
                         .frame(width:UIScreen.main.bounds.width)
