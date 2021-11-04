@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18BFD9B02733D35300224B48 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFD9AF2733D35300224B48 /* CardView.swift */; };
 		18F3BF01272A550700398F4B /* SwiftUIScrollViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3BF00272A550700398F4B /* SwiftUIScrollViewApp.swift */; };
 		18F3BF03272A550700398F4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3BF02272A550700398F4B /* ContentView.swift */; };
 		18F3BF05272A550800398F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F3BF04272A550800398F4B /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18BFD9AF2733D35300224B48 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		18F3BEFD272A550700398F4B /* SwiftUIScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F3BF00272A550700398F4B /* SwiftUIScrollViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScrollViewApp.swift; sourceTree = "<group>"; };
 		18F3BF02272A550700398F4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				18F3BF00272A550700398F4B /* SwiftUIScrollViewApp.swift */,
 				18F3BF02272A550700398F4B /* ContentView.swift */,
+				18BFD9AF2733D35300224B48 /* CardView.swift */,
 				18F3BF04272A550800398F4B /* Assets.xcassets */,
 				18F3BF06272A550800398F4B /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F3BF03272A550700398F4B /* ContentView.swift in Sources */,
+				18BFD9B02733D35300224B48 /* CardView.swift in Sources */,
 				18F3BF01272A550700398F4B /* SwiftUIScrollViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
