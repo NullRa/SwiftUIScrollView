@@ -27,9 +27,13 @@ struct ContentView: View {
             ScrollView(.horizontal) {
                 HStack {
                     CardView(image: "1", category: "Picture 1", heading: "Fat Cat", author: "take by null")
+                        .frame(width:UIScreen.main.bounds.width)
                     CardView(image: "2", category: "Picture 2", heading: "LOVE", author: "take by null")
+                        .frame(width:UIScreen.main.bounds.width)
                     CardView(image: "3", category: "Picture 3", heading: "Dude", author: "take by null")
+                        .frame(width:UIScreen.main.bounds.width)
                     CardView(image: "4", category: "Picture 4", heading: "Long Leg", author: "take by null")
+                        .frame(width:UIScreen.main.bounds.width)
                 }
             }
         }
