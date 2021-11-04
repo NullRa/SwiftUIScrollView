@@ -8,22 +8,27 @@
 import SwiftUI
 
 struct CardView: View {
+    var image: String
+    var category: String
+    var heading: String
+    var author: String
+    
     var body: some View {
         VStack {
-            Image("1")
+            Image(image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
             HStack {
                 VStack(alignment: .leading) {
-                    Text("Picture 1")
+                    Text(category)
                         .font(.headline)
                         .foregroundColor(.secondary)
-                    Text("Fat Cat")
+                    Text(heading)
                         .font(.title)
                         .fontWeight(.black)
                         .foregroundColor(.primary)
                         .lineLimit(3)
-                    Text("take by null".uppercased())
+                    Text(author.uppercased())
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
@@ -42,6 +47,6 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView()
+        CardView(image: "1", category: "Picture 1", heading: "Fat Cat", author: "take by null")
     }
 }
