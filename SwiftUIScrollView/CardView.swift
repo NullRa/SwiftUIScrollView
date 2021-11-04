@@ -9,7 +9,29 @@ import SwiftUI
 
 struct CardView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("1")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("Picture 1")
+                        .font(.headline)
+                        .foregroundColor(.secondary)
+                    Text("Fat Cat")
+                        .font(.title)
+                        .fontWeight(.black)
+                        .foregroundColor(.primary)
+                        .lineLimit(3)
+                    Text("take by null".uppercased())
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
+                Spacer()
+            }
+            .padding(.horizontal)
+        }
+        .cornerRadius(30)
     }
 }
 
