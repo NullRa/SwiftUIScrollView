@@ -36,6 +36,8 @@ struct CardView: View {
                 Spacer()
             }
             .padding(.horizontal)
+            
+            Spacer()
         }
         .cornerRadius(30)
         .overlay {
